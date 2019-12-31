@@ -32,7 +32,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:$versions.androidGradlePlugin"
+        classpath "com.android.tools.build:gradle:${versions.androidGradlePlugin}"
         classpath "com.dicedmelon.gradle:jacoco-android:$versions.jacocoAndroid"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
     }

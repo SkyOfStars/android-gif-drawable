@@ -6,7 +6,7 @@ version = VERSION_NAME
 group = GROUP
 
 android {
-    ndkVersion '20.0.5594570'
+    ndkVersion '20.1.5948944'
     compileSdkVersion versions.compileSdk
 
     compileOptions {
